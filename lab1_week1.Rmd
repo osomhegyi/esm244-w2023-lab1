@@ -1,0 +1,17 @@
+---
+title: "ESM_244_Lab1"
+author: "Olivia Somhegyi"
+date: "2023-01-13"
+output: html_document
+---
+
+```{r setup, include=TRUE, echo = TRUE, warning = FALSE, message = FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
+
+library(tidyverse)
+library(here)
+library(sf) #good for spatial data
+library(tmap) #good for mapping
+
+
+```
